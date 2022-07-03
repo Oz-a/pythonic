@@ -1,4 +1,8 @@
+# University endowment per student calculation using classes
 class University:
+	'''
+	Creating a class which will hold university instances and a method.
+	'''
 	def __init__(self, name, endowment, students):
 		self.name = name
 		self.endowment = endowment
