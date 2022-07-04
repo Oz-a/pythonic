@@ -17,3 +17,8 @@ for i in humpty_stripped:
 ### 2 ###
 
 names = ("bob", "Christopher", "Rachel", "MICHAEL", "jessika", "francine")
+
+shortnames = [name.title() for name in names if len(name) < 8]
+
+for n in shortnames:
+	print(n)
