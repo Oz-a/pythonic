@@ -22,3 +22,8 @@ shortnames = [name.title() for name in names if len(name) < 8]
 
 for n in shortnames:
 	print(n)
+
+### 3 ###
+onlypositives = filter(lambda n: n > 0, range(-5, 11))
+for i in onlypositives:
+	print(i)
